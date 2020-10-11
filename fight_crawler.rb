@@ -20,6 +20,3 @@ class FightCrawler
   end
 
 end
-
-crawler = FightCrawler.new 'https://pt.wikipedia.org/wiki/UFC_229'
-crawler.fights
