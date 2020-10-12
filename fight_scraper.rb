@@ -1,6 +1,6 @@
 require 'mechanize'
 
-class FightScrapper
+class FightScraper
 
   def initialize url
     agent = Mechanize.new

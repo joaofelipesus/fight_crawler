@@ -1,4 +1,4 @@
-require_relative "fight_scrapper"
+require_relative "fight_scraper"
 
-scrapper = FightScrapper.new ARGV.first
-scrapper.fights
+scraper = FightScraper.new ARGV.first
+scraper.fights
